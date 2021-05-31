@@ -1,0 +1,30 @@
+{
+    "name": "listree",
+    "version": "0.0.6",
+    "description": "Package to convert a nested list into a tree menu",
+    "module": "dist/list-tree.esm.min.js",
+    "browser": "dist/list-tree.umd.min.js",
+    "main": "dist/list-tree.esm.min.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tonyl/rollup-list-tree.git"
+    },
+    "author": "Tony Lara",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tonyl/rollup-list-tree/issues"
+    },
+    "homepage": "https://github.com/tonyl/rollup-list-tree#readme",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "devDependencies": {
+        "rollup": "^2.50.5",
+        "rollup-plugin-scss": "^2.6.1",
+        "rollup-plugin-terser": "^7.0.2"
+    }
+}
